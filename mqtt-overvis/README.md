@@ -1,6 +1,6 @@
 
-*mqtt-overvis* - a fork from [zephyrus implementaition|https://github.com/zephyrus/mqtt-overvis]
-of mqtt integration for overvis devices (I only have [EM-129|https://novatek-electro.ru/produktsiya/ustroystva-s-wi-fi-upravleniem/wi-fi-schetchik-yelektroyenergii-s-funkciey-z.html])
+_mqtt-overvis_ - a fork from [zephyrus implementaition](https://github.com/zephyrus/mqtt-overvis)
+of mqtt integration for overvis devices (I only have [EM-129](https://novatek-electro.ru/produktsiya/ustroystva-s-wi-fi-upravleniem/wi-fi-schetchik-yelektroyenergii-s-funkciey-z.html)
 
 Example config:
 ```
@@ -12,4 +12,4 @@ Example config:
   "OVERVIS_HOST": "http://192.168.2.253",
   "OVERVIS_PASSWORD": "password",
   "OVERVIS_INTERVAL": 5000
-```json
+```
