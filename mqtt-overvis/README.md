@@ -42,6 +42,7 @@ Sensors:
   state_topic: "overvis/status"
   unit_of_measurement: 'Hz'
   value_template: "{{ value_json.frequency | float }}"
+  icon: mdi:flash-circle
 
 - platform: mqtt
   name: EM129 Energy
@@ -49,6 +50,7 @@ Sensors:
   unit_of_measurement: 'kVA*h'
   value_template: "{{ value_json.energy | float }}"
   device_class: energy
+  icon: mdi:circle-slice-3
 
 - platform: mqtt
   name: EM129 Energy
@@ -56,6 +58,7 @@ Sensors:
   unit_of_measurement: 'kW*h'
   value_template: "{{ value_json.energy | float }}"
   device_class: energy
+  icon: mdi:circle-slice-3
 
 - platform: mqtt
   name: EM129 Temperature
@@ -63,4 +66,4 @@ Sensors:
   unit_of_measurement: 'C'
   value_template: "{{ value_json.temerature | float }}"
   device_class: temperature
-````
+```
