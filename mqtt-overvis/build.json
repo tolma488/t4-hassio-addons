@@ -1,0 +1,5 @@
+{
+  "build_from": {
+    "amd64": "2mqtt/overvis:0.0.7"
+  }
+}

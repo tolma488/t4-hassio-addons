@@ -1,0 +1,3 @@
+[submodule "mqtt-overvis/mqtt-overvis"]
+	path = mqtt-overvis/mqtt-overvis
+	url = https://github.com/zephyrus/mqtt-overvis.git

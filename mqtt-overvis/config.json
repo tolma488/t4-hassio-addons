@@ -1,0 +1,31 @@
+{
+  "name": "mqtt-overvis",
+  "version": "0.1",
+  "slug": "mqtt-overvis",
+  "description": "MQTT integration for Overvis platform",
+  "url": "https://github.com/tolma488/t4-hassio-addons/mqtt-overvis",
+  "arch": ["amd64", "i386"],
+  "startup": "application",
+  "boot": "auto",
+  "services": ["mqtt:want"],
+  "options": {
+      "MQTT_ID": "overvis",
+      "MQTT_PATH": "overvis",
+      "MQTT_HOST": "!secret mqtt_host",
+      "MQTT_USERNAME": "!secret mqtt_user",
+      "MQTT_PASSWORD": "!secret mqtt_password",
+      "OVERVIS_HOST": "!secret overvis_url",
+      "OVERVIS_PASSWORD": "!secret overvis_pass",
+      "OVERVIS_INTERVAL": 5000
+  },
+  "schema": {
+      "MQTT_ID": "str",
+      "MQTT_PATH": "str",
+      "MQTT_HOST": "url",
+      "MQTT_USERNAME": "str",
+      "MQTT_PASSWORD": "password",
+      "OVERVIS_HOST": "url",
+      "OVERVIS_PASSWORD": "password",
+      "OVERVIS_INTERVAL": "int"
+  }
+}
