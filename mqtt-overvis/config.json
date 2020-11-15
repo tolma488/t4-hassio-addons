@@ -3,7 +3,7 @@
   "version": "0.1",
   "slug": "mqtt-overvis",
   "description": "MQTT integration for Overvis platform",
-  "url": "https://github.com/tolma488/t4-hassio-addons/mqtt-overvis",
+  "url": "https://github.com/tolma488/t4-hassio-addons/tree/main/mqtt-overvis",
   "arch": ["amd64", "i386"],
   "startup": "application",
   "boot": "auto",
