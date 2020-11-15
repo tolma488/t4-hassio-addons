@@ -1,6 +1,6 @@
 
 _mqtt-overvis_ - a fork from [zephyrus implementaition](https://github.com/zephyrus/mqtt-overvis)
-of mqtt integration for overvis devices (I only have [EM-129](https://novatek-electro.ru/produktsiya/ustroystva-s-wi-fi-upravleniem/wi-fi-schetchik-yelektroyenergii-s-funkciey-z.html)
+of mqtt integration for overvis devices (I only have [EM-129](https://novatek-electro.ru/produktsiya/ustroystva-s-wi-fi-upravleniem/wi-fi-schetchik-yelektroyenergii-s-funkciey-z.html))
 
 Example config:
 ```
