@@ -38,10 +38,29 @@ Sensors:
   device_class: power
 
 - platform: mqtt
+  name: EM129 Frequency
+  state_topic: "overvis/status"
+  unit_of_measurement: 'Hz'
+  value_template: "{{ value_json.frequency | float }}"
+
+- platform: mqtt
   name: EM129 Energy
   state_topic: "overvis/status"
-  unit_of_measurement: 'Wh'
+  unit_of_measurement: 'kVA*h'
   value_template: "{{ value_json.energy | float }}"
   device_class: energy
 
-```
+- platform: mqtt
+  name: EM129 Energy
+  state_topic: "overvis/report"
+  unit_of_measurement: 'kW*h'
+  value_template: "{{ value_json.energy | float }}"
+  device_class: energy
+
+- platform: mqtt
+  name: EM129 Temperature
+  state_topic: "overvis/report"
+  unit_of_measurement: 'C'
+  value_template: "{{ value_json.temerature | float }}"
+  device_class: temperature
+````
